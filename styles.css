@@ -119,7 +119,7 @@ center-block {
 .pineapple {
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/71-x8OJqhdL._SX425_.jpg);
   background-repeat: no-repeat;
-  background-size: 25% auto;
+  background-size: auto 100%;
   background-position: 110% center;
 }
 @media screen and (max-width: 500px) {
