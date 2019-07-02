@@ -14,7 +14,10 @@ center-block {
   margin: auto;
   display: block;
 }
-
+.padded-header {
+  padding: 2rem;
+  margin: 0;
+}
 .padded {
   display: flex;
   flex-direction: column;
@@ -229,10 +232,11 @@ nav a:hover {
   right: 0;
   font-size: 0.6rem;
   text-transform: uppercase;
-  padding: 0.6rem;
-  background: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  background: rgba(0, 128, 0, 0.5);
   text-decoration: none;
-  color: green;
+  color: white;
 }
 #scroll-to-top:hover {
   text-decoration: underline;
@@ -240,4 +244,38 @@ nav a:hover {
 
 .hide {
   display: none;
+}
+
+.big-link {
+  color: green;
+  text-decoration: none;
+}
+.big-link:hover {
+  text-decoration: underline;
+}
+
+.image-frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: 1;
+  min-width: 200px;
+  margin: 0 1rem;
+}
+@media only screen and (max-width: 450px) {
+  .image-frame {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    min-width: 140px;
+  }
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
 }
