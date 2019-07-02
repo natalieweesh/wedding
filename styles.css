@@ -167,7 +167,7 @@ center-block {
   background-image: url(https://d2gt2lt628wbyx.cloudfront.net/cloud/assets/milky-way/topright.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: auto 60%;
+  background-size: 300px auto;
 }
 
 .dots-right-bottom {
