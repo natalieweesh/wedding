@@ -291,3 +291,10 @@ nav a:hover {
   justify-content: center;
   padding: 0.5rem;
 }
+
+.readable-background {
+  background: rgba(255, 255, 255, 0.7);
+}
+.readable-green-background {
+  background: rgba(241, 255, 237, 0.7);
+}
