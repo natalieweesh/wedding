@@ -169,7 +169,7 @@ center-block {
 
 .dots-left-top {
   background-image: url(https://d2gt2lt628wbyx.cloudfront.net/cloud/assets/milky-way/topleft.png);
-  background-size: auto 70%;
+  background-size: 300px auto;
   background-repeat: no-repeat;
   background-position: left top;
 }
