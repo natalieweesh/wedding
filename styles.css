@@ -303,3 +303,31 @@ nav a:hover {
 .readable-green-background {
   background: rgba(241, 255, 237, 0.7);
 }
+
+.big-header-img {
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: none;
+}
+.big-header-img.home {
+  background-image: url(https://lh3.googleusercontent.com/t7MIiGmh7QM6wAnbcLlcHgjj5-ps5Y1zGwIKnpN42Pp8GD8sW9z2Q8EHrlNwsU9K0vZTAJST3T6kpCXH3_bhpMtCYSOYugYGknclS3DmPUHxHwowx844vvrOAF1pMCLkLf-L8F9R9eNKPdEFXk19oOajiHND9MvYWT8LDk_pS0DKv5fs9yReBmPxSo5Cc1OFJfuK1a8HVgBAGV-nr8a6Wc3nVHZZUCFRVEvWoZKgHy6mpoaD0ujyekgkNZx6hJE8ceMTu7sJqhr9j2xNEROO8_K2GKO6j4lb655bOy8rUGdYxftcwzrNS4wgOzSViQs_Xm30Ca2f6inoMHgc0Ivt8OCuJw0fVP1ZcqRVHwAnl-rtdIDlyUaVzJnHF4lnrSNbpleALiletHcf0zvkwqOJb3e38QTXuYaTNxfvKHUK-2cVVCpsKmEIqpwGvlGQzMnzNEQ4TqAOEnTDdh2Yep2sEYDcIXA1ldZYUS7x733vFG1IN_6f39Q3kQ4k15ATvK5QEbkrkeVGXoX0vbAHPRtdk1gX03i1JFsySen_GNs5vkoenompaDKpCuo5UwALc0wjZnHk9xl8YzeRV_VEtJWEDWYqOtL2RqXMs6VN8IkP1Qkhl-BrUIgTyULiOpGHbdpcVU3HwQAf5YMc1o6LUsD-TgLoP50W1gnQwoKPcyA3GNemtyYwi6OUAubLAFiaWdfee6wpd7RJs95bPpUeGssLjaYpCw=w1928-h1276-no);
+}
+.big-header-img.food {
+  background-image: url(http://www.farmhousethai.com/wp-content/uploads/2018/12/Farmhouse-48-1.jpg);
+  opacity: 0.8;
+}
+.big-header-img.thailand {
+  background-image: url(https://media.webjet.com.au/Images/cities/1200x472/BKK1.jpg);
+  opacity: 0.8;
+}
+@media only screen and (min-width: 700px) {
+  .big-header-img {
+    display: block;
+  }
+  .small-header-img {
+    display: none;
+  }
+}
