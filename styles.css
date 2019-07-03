@@ -212,6 +212,9 @@ nav a {
   text-transform: uppercase;
   color: black;
 }
+nav.fixed-nav a {
+  flex-basis: 100%;
+}
 nav a:hover {
   text-decoration: underline;
 }
