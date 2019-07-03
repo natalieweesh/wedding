@@ -305,11 +305,11 @@ nav a:hover {
 }
 
 .big-header-img {
-  background-size: contain;
+  background-size: 100% auto;
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 30%;
   display: none;
 }
 .big-header-img.home {
