@@ -9,7 +9,9 @@ body {
 h1 {
   font-size: 2rem;
 }
-
+ul {
+  padding-left: 1rem;
+}
 center-block {
   margin: auto;
   display: block;
