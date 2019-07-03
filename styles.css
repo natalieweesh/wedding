@@ -28,6 +28,9 @@ center-block {
   flex-direction: column;
   padding: 2rem;
 }
+.padded-top {
+  padding-top: 2rem;
+}
 .padded-less {
   padding: 2rem 1rem;
 }
@@ -330,4 +333,10 @@ nav a:hover {
   .small-header-img {
     display: none;
   }
+}
+
+.extra-small {
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.6rem;
 }
