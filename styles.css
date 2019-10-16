@@ -15,7 +15,7 @@ ul {
 li {
   margin-bottom: 0.5rem;
 }
-center-block {
+.center-block {
   margin: auto;
   display: block;
 }
